@@ -38,7 +38,7 @@ const Experience = () => {
                 {/* </Card.Header>  */}
                 <Card.Body className="d-flex justify-content-center flex-column">
                   <div>
-                    <Card.Title style={{color:'orange',fontWeight:'900',fontSize:'30px'}} className="text-center">Designation: Web Developer (Intern, Manual Tester)</Card.Title>
+                    <Card.Title style={{color:'orange',fontWeight:'900',fontSize:'30px'}} className="text-center">Designation: Frontend Developer & Manual Tester</Card.Title>
                   </div>
                   <div>
                     <Card.Text className="text-center style">
