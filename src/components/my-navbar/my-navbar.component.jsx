@@ -32,7 +32,7 @@ const MyNavbar = () => {
                         <Nav.Link href="#experience">Experiences</Nav.Link>
                         <Nav.Link href="#projects">Projects</Nav.Link>
                         <Nav.Link href="#contact">Contact</Nav.Link>
-                        <a href="https://drive.google.com/file/d/1rvBlg2-oq9GEbqn8aYoY3ebJfwm6uiFR/view" target="_blank" rel="noopener noreferrer">
+                        <a href="https://drive.google.com/file/d/1CdMBCcfsA90qSNqAESA_56iE-TVTqj7j/view?usp=sharing" target="_blank" rel="noopener noreferrer">
                       <Button className="m-2" variant="outline-success">
                         My Resume
                       </Button>
