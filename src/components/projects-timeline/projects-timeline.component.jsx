@@ -9,7 +9,7 @@ import L_AppartmentHunt from "../../assets/img/projects/appartment.webp";
 import L_EduTech from "../../assets/img/projects/edutech.webp";
 import L_Workuit from "../../assets/img/projects/workuit.png";
 import L_HRM from "../../assets/img/projects/hrm.png";
-
+import L_USERNAME from "../../assets/img/projects/username.webp";
 import Accordion from "react-bootstrap/Accordion";
 import Card from "react-bootstrap/Card";
 
@@ -41,6 +41,39 @@ const TimeLine = () => {
       <h1 className="pt-3 text-center font-details-b pb-3">PROJECTS</h1>
       <Timeline>
         <Events>
+          {/* Username Test Scenario */}
+          <ImageEvent date="8/07/2021" className="text-center" text="Workuit Resume Builder App Testing" src={L_USERNAME} alt="Robo Friends">
+            <div className="d-flex justify-content-between flex-column mt-1">
+              <div>
+                <Accordion>
+                  <Card>
+                    <Accordion.Toggle as={Card.Header} eventKey="0" className="p-2 text-center accordian-main">
+                      PROJECT DETAILS
+                    </Accordion.Toggle>
+
+                    <Accordion.Collapse eventKey="0" className="text-left">
+                      <Card.Body>
+                        <strong>Description:</strong><br/>
+                        This is a demo Test Case Design, Test Case Execution, and detect defects of Username(input box) of a registration page 
+                        <hr />
+                       
+                      </Card.Body>
+                    </Accordion.Collapse>
+                  </Card>
+                </Accordion>
+              </div>
+              <div className="d-flex justify-content-between flex-nowrap text-center">
+                <UrlButton href="https://drive.google.com/file/d/1QNPsOnTObGSpfQ5Lw32BKCk0nqfmhRcF/view" target="_blank">
+                  SEE LIVE
+                </UrlButton>
+               
+                <UrlButton href="https://www.linkedin.com/in/anik-khan/" target="_blank">
+                  LINKEDIN
+                </UrlButton>
+              </div>
+            </div>
+          </ImageEvent>
+          {/* Username end */}
           {/* Workuit Resume Builder */}
           <ImageEvent date="5/07/2021" className="text-center" text="Workuit Resume Builder App Testing" src={L_Workuit} alt="Robo Friends">
             <div className="d-flex justify-content-between flex-column mt-1">

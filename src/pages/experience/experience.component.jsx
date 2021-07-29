@@ -45,7 +45,7 @@ const Experience = () => {
                       <strong className="body-title-style "></strong>
                       <br />
                       <strong style={{color:'green'}}>Company Name:</strong> Softify Digital <br />
-                      <strong style={{color:'green'}}>Start & End Date:</strong> January(2021) - May(2021)<br />
+                      <strong style={{color:'green'}}>Start & End Date:</strong> January(2021) - June(2021)<br />
                       <strong style={{color:'green'}}>Course Name:</strong> Software Quality Assurance(Automation) <br />
                       <strong style={{color:'green'}}>Institute Name:</strong> Udemy <br />
                       <strong style={{color:'green'}}>Certificate Link:</strong>Training in Progress <br />
