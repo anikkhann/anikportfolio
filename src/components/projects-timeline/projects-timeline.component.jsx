@@ -42,7 +42,7 @@ const TimeLine = () => {
       <Timeline>
         <Events>
           {/* Username Test Scenario */}
-          <ImageEvent date="8/07/2021" className="text-center" text="Workuit Resume Builder App Testing" src={L_USERNAME} alt="Robo Friends">
+          <ImageEvent date="8/07/2021" className="text-center" text="Registration Page Username Test" src={L_USERNAME} alt="Robo Friends">
             <div className="d-flex justify-content-between flex-column mt-1">
               <div>
                 <Accordion>
