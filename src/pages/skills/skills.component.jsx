@@ -17,8 +17,25 @@ const Skills = () => {
     <CardDeck>
       <Row className="d-flex justify-content-around" style={{marginLeft:'100px'}}>
        
-        {/* Frontend */}
         <Col md={4}>
+          {/* manuaal testing */}
+          <Card className="focus mt-2 mb-2 ">
+            <Card.Body>
+              <Card.Title className="text-center  card-title">Manual Testing</Card.Title>
+              <hr />
+              <Card.Text className="card-text d-flex justify-content-start flex-column">
+                {skills.ManualTesting.map((skill, index) => (
+                  <span className="p-2" key={index}>
+                    <a className="text-dark text-decoration-none" href="" target="_blank" rel="noopener noreferrer">
+                       {skill.skillName}
+                    </a>
+                  </span>
+                ))}
+              </Card.Text>
+            </Card.Body>
+          </Card>
+         
+{/* Frontend */}
           <Card className="focus mt-2 mb-2">
             <Card.Body>
               <Card.Title className="text-center  card-title">Frontend</Card.Title>
@@ -37,20 +54,18 @@ const Skills = () => {
           </Card>
         </Col>
 
-        {/* Backend */}
+        
         <Col md={4}>
+          {/* Performance testing*/}
           <Card className="focus mt-2 mb-2">
             <Card.Body>
-              <Card.Title className="text-center  card-title">Backend</Card.Title>
+              <Card.Title className="text-center  card-title">Performance & Load Testing</Card.Title>
               <hr />
               <Card.Text className="card-text d-flex justify-content-start flex-column">
-                {skills.backend.map((skill, index) => (
-                  <span className="p-2" key={index}>
-                    <a className="text-dark text-decoration-none" href={skill.link} target="_blank" rel="noopener noreferrer">
-                      <Image src={skill.imgSrc} alt={skill.imgAltText} rounded className="image-style m-1"></Image> {skill.skillName}
-                    </a>
-                  </span>
-                ))}
+                <span className="p-2">
+                  
+                  <Image src={skills.PerformanceTesting[0].imgSrc} alt={skills.PerformanceTesting[0].imgAltText} rounded className="image-style m-1"></Image> {skills.PerformanceTesting[0].skillName}
+                </span>
               </Card.Text>
             </Card.Body>
           </Card>
@@ -68,6 +83,23 @@ const Skills = () => {
               </Card.Text>
             </Card.Body>
           </Card>
+{/* Backend */}
+          <Card className="focus mt-2 mb-2">
+            <Card.Body>
+              <Card.Title className="text-center  card-title">Backend</Card.Title>
+              <hr />
+              <Card.Text className="card-text d-flex justify-content-start flex-column">
+                {skills.backend.map((skill, index) => (
+                  <span className="p-2" key={index}>
+                    <a className="text-dark text-decoration-none" href={skill.link} target="_blank" rel="noopener noreferrer">
+                      <Image src={skill.imgSrc} alt={skill.imgAltText} rounded className="image-style m-1"></Image> {skill.skillName}
+                    </a>
+                  </span>
+                ))}
+              </Card.Text>
+            </Card.Body>
+          </Card>
+           
 
           {/* Hosting Platforms */}
           <Card className="focus mt-2 mb-2 ">

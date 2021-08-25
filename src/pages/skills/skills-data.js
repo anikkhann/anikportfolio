@@ -19,9 +19,45 @@ import L_MYSQL from "../../assets/img/skills/my-sql.svg";
 import L_JAVA from "../../assets/img/skills/java.svg";
 import L_JIRA from "../../assets/img/skills/jira.svg";
 import L_SELENIUM from "../../assets/img/skills/selenium.svg";
-
+import L_JMETER from "../../assets/img/skills/JMeter.webp";
 
 export const skills = {
+  ManualTesting: [
+    {
+      
+      skillName: "1. Requirement Analysis",
+    },
+    {
+      skillName: "2. Test Plan & Test Design",
+    },
+    {
+      skillName: "3. Writing & Reviewing Test Cases"
+    },
+    {
+      skillName: "4. Test Execution & Evaluation"
+    },
+    {
+      skillName: "5. Creating Test Report"
+    },
+    {
+      skillName: "6. Smoke & Sanity Testing"
+    },
+    {
+      skillName: "7. Regression Testing"
+    },
+    {
+      skillName: "8. System Testing & UAT"
+    }
+  ],
+  PerformanceTesting: [
+    {
+      link: "",
+      imgAltText: "JMETER",
+      imgSrc: L_JMETER,
+      skillName: "JMeter",
+    },
+    
+  ],
   WebFramework: [
     {
       link: "",
@@ -35,6 +71,7 @@ export const skills = {
       skillName: "Jira",
     }
   ],
+
   frontend: [
     {
       link: "https://www.javascript.com/",

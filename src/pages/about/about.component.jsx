@@ -27,7 +27,7 @@ const About = () => {
                 {/* description */}
                 Hello there! I am <strong style={{color:'green'}}>&nbsp;Md.Anik Khan</strong>
                 
-                <br />A passionate Software Quality Assurance, programmer and alongside a high interest in Manual Testing, Automation Testing, and Front-End Web Development with React.js, Node.js, Express.js and MongoDB. <br/>
+                <br />A passionate Software Quality Assurance, programmer and alongside a high interest in Manual Testing, Automation Testing, and I also excel at React.js, Node.js, Express.js, MySQL and MongoDB. <br/>
                 Born and brought up in Bangladesh. 
                
                 <br />
@@ -48,7 +48,7 @@ const About = () => {
                     </a>
                   </div>
                   <div>
-                    <a href="https://drive.google.com/file/d/1CdMBCcfsA90qSNqAESA_56iE-TVTqj7j/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                    <a href="https://drive.google.com/file/d/1gCP5m1oSyDDY-nIAD_FTCFbE3us46Gfw/view?usp=sharing" target="_blank" rel="noopener noreferrer">
                       <Button className="m-2" variant="outline-success">
                         My Resume
                       </Button>
