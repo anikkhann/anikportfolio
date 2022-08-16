@@ -57,7 +57,7 @@ const Skills = () => {
         
         <Col md={4}>
           {/* Performance testing*/}
-          <Card className="focus mt-2 mb-2">
+          {/* <Card className="focus mt-2 mb-2">
             <Card.Body>
               <Card.Title className="text-center  card-title">Performance & Load Testing</Card.Title>
               <hr />
@@ -68,7 +68,7 @@ const Skills = () => {
                 </span>
               </Card.Text>
             </Card.Body>
-          </Card>
+          </Card> */}
            {/* Selemium Webdriver */}
 
         <Card className="focus mt-2 mb-2">

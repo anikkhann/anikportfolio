@@ -44,7 +44,13 @@ const Experience = () => {
                     <Card.Text className="text-center style">
                       <strong className="body-title-style "></strong>
                       <br />
+                      <strong style={{color:'green'}}>Company Name:</strong> SquareFeet Platform Limited <br />
+                      <strong style={{color:'green'}}>Start & End Date:</strong> Semtember 2021 - Current <br />
+                      
                       <strong style={{color:'green'}}>Company Name:</strong> Softify Digital <br />
+                      <strong style={{color:'green'}}>Start & End Date:</strong> February 2021 - August 2021 <br />
+
+                      {/* <strong style={{color:'green'}}>Company Name:</strong> Softify Digital <br />
                       <strong style={{color:'green'}}>Start & End Date:</strong> January(2021) - June(2021)<br />
                       <strong style={{color:'green'}}>Course Name:</strong> Software Quality Assurance(Automation) <br />
                       <strong style={{color:'green'}}>Institute Name:</strong> Udemy <br />
@@ -52,7 +58,7 @@ const Experience = () => {
                       <strong style={{color:'green'}}>Course Name:</strong> Web Development <br />
                       <strong style={{color:'green'}}>Institute Name:</strong> Programming Hero <br />
                       <strong style={{color:'green'}}>Certificate Link: </strong><a href="https://drive.google.com/file/d/18okDd-hBr1BfjcfdqHEG8Wy5jix4gTXB/view?usp=sharing" target="_blank" rel="noopener noreferrer">Web Development</a><br/>
-                      <strong style={{color:'green'}}>Duration:</strong> 6 Month
+                      <strong style={{color:'green'}}>Duration:</strong> 6 Month */}
                       {/* <br />
                       <strong style={{color:'green'}}>Technology Learned:</strong> <br/>
                       
