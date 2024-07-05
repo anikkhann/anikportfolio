@@ -11,73 +11,35 @@ import L_GIT from "../../assets/img/skills/git-icon.svg";
 import L_HEROKU from "../../assets/img/skills/heroku.svg";
 import L_GITHUB_PAGES from "../../assets/img/skills/github.svg";
 import L_JAVASCRIPT from "../../assets/img/skills/javascript.svg";
-import L_CPROGRAMMING from "../../assets/img/skills/c_pro.svg";
 import L_MONGODB from "../../assets/img/skills/MongoDB-Emblem.svg";
 import L_FIREBASE from "../../assets/img/skills/firebase2_.svg";
 import L_NETLIFY from "../../assets/img/skills/Netlify.svg";
 import L_MYSQL from "../../assets/img/skills/my-sql.svg";
-import L_JAVA from "../../assets/img/skills/java.svg";
 import L_JIRA from "../../assets/img/skills/jira.svg";
-import L_SELENIUM from "../../assets/img/skills/selenium.svg";
-import L_JMETER from "../../assets/img/skills/JMeter.webp";
-
+import L_TS from "../../assets/img/skills/ts.png";
+import L_NXT from "../../assets/img/skills/nxt.webp";
+import L_TL from "../../assets/img/skills/tl.png";
+import L_RX from "../../assets/img/skills/rx.webp";
+import L_RTK from "../../assets/img/skills/rtk.png";
+import L_RQ from "../../assets/img/skills/rq.webp";
+import L_VCL from "../../assets/img/skills/vcl.jpeg";
+import L_GITLAB from "../../assets/img/skills/gitlab.webp";
 export const skills = {
-  ManualTesting: [
-    {
-      
-      skillName: "1. Requirement Analysis",
-    },
-    {
-      skillName: "2. Test Plan & Test Design",
-    },
-    {
-      skillName: "3. Writing & Reviewing Test Cases"
-    },
-    {
-      skillName: "4. Test Execution & Evaluation"
-    },
-    {
-      skillName: "5. Creating Test Report"
-    },
-    {
-      skillName: "6. Smoke & Sanity Testing"
-    },
-    {
-      skillName: "7. Regression Testing"
-    },
-    {
-      skillName: "8. System Testing & UAT"
-    }
-  ],
-  PerformanceTesting: [
-    {
-      link: "",
-      imgAltText: "JMETER",
-      imgSrc: L_JMETER,
-      skillName: "JMeter",
-    },
-    
-  ],
-  WebFramework: [
-    {
-      link: "",
-      imgAltText: "SELENIUM",
-      imgSrc: L_SELENIUM,
-      skillName: "Selenium WebDriver",
-    },
-    {
-      imgAltText: "JIRA",
-      imgSrc: L_JIRA,
-      skillName: "Jira",
-    }
-  ],
-
+ 
   frontend: [
+  
+    
     {
       link: "https://www.javascript.com/",
       imgAltText: "JavaScript",
       imgSrc: L_JAVASCRIPT,
       skillName: "JavaScript",
+    },
+    {
+      link: "https://www.javascript.com/",
+      imgAltText: "Typescript",
+      imgSrc: L_TS,
+      skillName: "TypeScript",
     },
     {
       link: "https://reactjs.org/",
@@ -86,22 +48,29 @@ export const skills = {
       skillName: "React JS",
     },
     {
+      link: "https://reactjs.org/",
+      imgAltText: "Next JS",
+      imgSrc: L_NXT,
+      skillName: "Next JS",
+    },
+    {
       link: "https://reacttraining.com/react-router/",
       imgAltText: "React Router",
       imgSrc: L_REACT_ROUTER,
       skillName: "React Router",
     },
-    {
-      link: "https://en.wikipedia.org/wiki/HTML5",
-      imgAltText: "HTML 5",
-      imgSrc: L_HTML5,
-      skillName: "HTML5",
-    },
+   
     {
       link: "https://medium.com/beginners-guide-to-mobile-web-development/whats-new-in-css-3-dcd7fa6122e1",
       imgAltText: "CSS 3",
       imgSrc: L_CSS3,
       skillName: "CSS3",
+    },
+    {
+      link: "https://getbootstrap.com/",
+      imgAltText: "Tailwind CSS",
+      imgSrc: L_TL,
+      skillName: "Tailwind CSS",
     },
     {
       link: "https://getbootstrap.com/",
@@ -147,6 +116,12 @@ export const skills = {
   hostingPlatforms: [
     {
       link: "https://www.heroku.com/",
+      imgAltText: "Vercel",
+      imgSrc: L_VCL,
+      skillName: "Vercel",
+    },
+    {
+      link: "https://www.heroku.com/",
       imgAltText: "Heroku",
       imgSrc: L_HEROKU,
       skillName: "Heroku",
@@ -174,22 +149,23 @@ export const skills = {
   programmingLanguages: [
     {
       link: "https://www.javascript.com/",
-      imgAltText: "JavaScript",
-      imgSrc: L_JAVASCRIPT,
-      skillName: "JavaScript",
-    },
-    {
-      link: "https://en.wikipedia.org/wiki/C_(programming_language)",
-      imgAltText: "C Programming",
-      imgSrc: L_CPROGRAMMING,
-      skillName: "C Programming",
+      imgAltText: "Redux",
+      imgSrc: L_RX,
+      skillName: "Redux",
     },
     {
       link: "https://www.javascript.com/",
-      imgAltText: "Java",
-      imgSrc: L_JAVA,
-      skillName: "Java(Basic)",
+      imgAltText: "RTK Query",
+      imgSrc: L_RTK,
+      skillName: "RTK Query",
     },
+    {
+      link: "https://www.javascript.com/",
+      imgAltText: "React Query",
+      imgSrc: L_RQ,
+      skillName: "React Query",
+    },
+  
     
   ],
   databases: [
@@ -215,9 +191,9 @@ export const skills = {
       skillName: "GIT",
     },
     {
-      imgAltText: "JIRA",
-      imgSrc: L_JIRA,
-      skillName: "Jira",
+      imgAltText: "Gitlab",
+      imgSrc: L_GITLAB,
+      skillName: "Gitlab",
     }
   ],
 };

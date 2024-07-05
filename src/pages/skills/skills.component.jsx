@@ -18,22 +18,7 @@ const Skills = () => {
       <Row className="d-flex justify-content-around" style={{marginLeft:'100px'}}>
        
         <Col md={4}>
-          {/* manuaal testing */}
-          <Card className="focus mt-2 mb-2 ">
-            <Card.Body>
-              <Card.Title className="text-center  card-title">Manual Testing</Card.Title>
-              <hr />
-              <Card.Text className="card-text d-flex justify-content-start flex-column">
-                {skills.ManualTesting.map((skill, index) => (
-                  <span className="p-2" key={index}>
-                    <a className="text-dark text-decoration-none" href="" target="_blank" rel="noopener noreferrer">
-                       {skill.skillName}
-                    </a>
-                  </span>
-                ))}
-              </Card.Text>
-            </Card.Body>
-          </Card>
+       
          
 {/* Frontend */}
           <Card className="focus mt-2 mb-2">
@@ -41,7 +26,7 @@ const Skills = () => {
               <Card.Title className="text-center  card-title">Frontend</Card.Title>
               <hr />
               <Card.Text className="card-text d-flex justify-content-start flex-column">
-                {skills.frontend.map((skill, index) => (
+                {skills?.frontend.map((skill, index) => (
                   <span className="p-2" key={`${skill.skillName}${index}`}>
                     <a className="text-dark text-decoration-none" href={skill.link} target="_blank" rel="noopener noreferrer">
                       <Image src={skill.imgSrc} alt={skill.imgAltText} rounded className="image-style m-1"></Image>
@@ -71,22 +56,11 @@ const Skills = () => {
           </Card> */}
            {/* Selemium Webdriver */}
 
-        <Card className="focus mt-2 mb-2">
-            <Card.Body>
-              <Card.Title className="text-center  card-title">Testing Web Framework</Card.Title>
-              <hr />
-              <Card.Text className="card-text d-flex justify-content-start flex-column">
-                <span className="p-2">
-                  
-                  <Image src={skills.WebFramework[0].imgSrc} alt={skills.WebFramework[0].imgAltText} rounded className="image-style m-1"></Image> {skills.WebFramework[0].skillName}
-                </span>
-              </Card.Text>
-            </Card.Body>
-          </Card>
+  
 {/* Backend */}
           <Card className="focus mt-2 mb-2">
             <Card.Body>
-              <Card.Title className="text-center  card-title">Backend</Card.Title>
+              <Card.Title className="text-center card-title">Backend</Card.Title>
               <hr />
               <Card.Text className="card-text d-flex justify-content-start flex-column">
                 {skills.backend.map((skill, index) => (
@@ -123,7 +97,7 @@ const Skills = () => {
         <Col md={4}>
           <Card className="focus mt-2 mb-2">
             <Card.Body>
-              <Card.Title className="text-center  card-title">Programming Languages</Card.Title>
+              <Card.Title className="text-center  card-title">State Management</Card.Title>
               <hr />
               <Card.Text className="card-text d-flex justify-content-start flex-column">
                 {skills.programmingLanguages.map((skill, index) => (

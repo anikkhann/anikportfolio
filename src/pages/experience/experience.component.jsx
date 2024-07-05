@@ -28,7 +28,7 @@ import "./experience.styles.css";
 const Experience = () => {
   return (
     <div id="experience">
-        <h1 className="pt-3 text-center font-details-b pb-3">EXPERIENCES & TRAINING COURSES</h1>
+        <h1 className="pt-3 text-center font-details-b pb-3">EXPERIENCES</h1>
         <Jumbotron className="jumbo-style">
           <Container>
             <Tilt options={{ max: 25 }}>

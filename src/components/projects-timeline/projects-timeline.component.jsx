@@ -9,7 +9,10 @@ import L_AppartmentHunt from "../../assets/img/projects/appartment.webp";
 import L_EduTech from "../../assets/img/projects/edutech.webp";
 import L_Workuit from "../../assets/img/projects/workuit.png";
 import L_HRM from "../../assets/img/projects/hrm.png";
-import L_USERNAME from "../../assets/img/projects/username.webp";
+import L_EDU from "../../assets/img/projects/edutube.png";
+import L_SQU from "../../assets/img/projects/square.png";
+import L_SELF from "../../assets/img/projects/selfcare.png";
+import L_HSQ from "../../assets/img/projects/homesq.png";
 import Accordion from "react-bootstrap/Accordion";
 import Card from "react-bootstrap/Card";
 
@@ -41,8 +44,8 @@ const TimeLine = () => {
       <h1 className="pt-3 text-center font-details-b pb-3">PROJECTS</h1>
       <Timeline>
         <Events>
-          {/* Username Test Scenario */}
-          <ImageEvent date="8/07/2021" className="text-center" text="Registration Page Username Test" src={L_USERNAME} alt="Robo Friends">
+          {/* EDUTUBE */}
+          <ImageEvent date="8/07/2021" className="text-center" text="EduTube Video Application" src={L_EDU} alt="Robo Friends">
             <div className="d-flex justify-content-between flex-column mt-1">
               <div>
                 <Accordion>
@@ -52,11 +55,62 @@ const TimeLine = () => {
                     </Accordion.Toggle>
 
                     <Accordion.Collapse eventKey="0" className="text-left">
-                      <Card.Body>
-                        <strong>Description:</strong><br/>
-                        This is a demo Test Case Design, Test Case Execution, and detect defects of Username(input box) of a registration page 
+                    <Card.Body>
+                        <strong>Description:</strong><br/> 
+                        EduTube application has various educational videos and information about all those videos on its home page. At the time users could learn skills by sorting and viewing them and could create, update,and edit videos with information.
                         <hr />
-                       
+                        <strong>Features:</strong>
+                        <ul className="list-styles pt-1">
+                          <li>When the user lands on the EduTube website, the user will be able to see all videos with some Tag Categories and a search field for sorting videos.</li>
+                          <li>If users want to see the videos according to their search or tag category selection, they will be able to see the filtered videos. Even if the user searches and selects the tag category at a time, the result will be shown according to seacrh and tag selection.</li>
+                          <li>Users can add any new video of their choice with information on this EduTube website. They will be able to see added video to Home Page.</li>
+                          <li>By selecting a specific video, the user will see the selected video dynamically on a single page along with the related videos of the selected video.</li>
+                          <li>By clicking the selected video or related video, the user gets two options, one is EDIT and the other is DELETE. When the user clicks on the update button, an edit page will appear with all the previous information of the selected video, from there the user can update the video with the new information. If the user wants to delete the selected video, by clicking on the delete button the user will be able to delete the selected video.</li>
+                          <li>After video adding, deleting, and editing a new video, the user will see all his updates on the homepage</li>
+                          
+                        </ul>
+                        <hr />
+                        <strong>Tech used:</strong>
+                        <ul>
+                        <li>
+                            <span className="p-2">
+                             React.js
+                            </span>
+                          </li>
+                      
+                          <li>
+                            <span className="p-2">
+                             RTK Query (State Management)
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                             React Router
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              Tailwind CSS
+                            </span>
+                          </li>
+                        
+                            
+                        <li>
+                            <span className="p-2">
+                              JSON Server API
+                            </span>
+                          </li>
+                          
+                          <li>
+                            <span className="p-2">
+                             Vercel
+                            </span>
+                          </li>
+                          
+                         
+                        </ul>
+                        <hr />
+                        
                       </Card.Body>
                     </Accordion.Collapse>
                   </Card>
@@ -66,16 +120,20 @@ const TimeLine = () => {
                 <UrlButton href="https://drive.google.com/file/d/1QNPsOnTObGSpfQ5Lw32BKCk0nqfmhRcF/view" target="_blank">
                   SEE LIVE
                 </UrlButton>
-               
-                <UrlButton href="https://www.linkedin.com/in/anik-khan/" target="_blank">
-                  LINKEDIN
+                <UrlButton href="https://edu-tube-application.vercel.app/" target="_blank">
+                  SOURCE CODE(Client)
                 </UrlButton>
+                <UrlButton href="https://github.com/anikkhann/EduTube-Server" target="_blank">
+                  SOURCE CODE(Server)
+                </UrlButton>
+              
               </div>
             </div>
           </ImageEvent>
-          {/* Username end */}
-          {/* Workuit Resume Builder */}
-          <ImageEvent date="5/07/2021" className="text-center" text="Workuit Resume Builder App Testing" src={L_Workuit} alt="Robo Friends">
+        
+          {/* Squarefeet */}
+          {/* date="5/07/2021" */}
+          <ImageEvent  className="text-center" text="SquareFeet" src={L_SQU} alt="Robo Friends">
             <div className="d-flex justify-content-between flex-column mt-1">
               <div>
                 <Accordion>
@@ -87,27 +145,123 @@ const TimeLine = () => {
                     <Accordion.Collapse eventKey="0" className="text-left">
                       <Card.Body>
                         <strong>Description:</strong><br/>
-                        This is a demo project of India's No 1 resume builder app for converting Functional Requirements to Test scenarios, Test Cases, Test Execution, Defect Reporting of the Workuit Resume Builder App.
+                        SquareFeet is the first Bangladeshi community-based property management platform, that wants to redefine the concept of urban neighbourhood is SquareFeet. The one-stop digital services for a building and community, like - Accounting & Billing, Neighbours, NewsFeed, Gatekeeper, Service Provider, Booking, Notice, Contract, and Police Verification are altogether present here.
                         <hr />
-                       
+                        <strong>Tech used:</strong>
+                        <ul>
+                        <li>
+                            <span className="p-2">
+                             React.js
+                            </span>
+                          </li>
+                      
+                          <li>
+                            <span className="p-2">
+                             RTK Query (State Management)
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                             React Router
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              Tailwind CSS
+                            </span>
+                          </li>
+                        
+                            
+                        <li>
+                            <span className="p-2">
+                              Rest API (Node, Express)
+                            </span>
+                          </li>
+                          
+                          
+                          
+                         
+                        </ul>
+                        <hr />
                       </Card.Body>
                     </Accordion.Collapse>
                   </Card>
                 </Accordion>
               </div>
               <div className="d-flex justify-content-between flex-nowrap text-center">
-                <UrlButton href="https://drive.google.com/file/d/1yvw11NMVi3lIIQQ0y7CP1FkzkKbREujo/view?usp=sharing" target="_blank">
+                <UrlButton href="https://squarefeet.xyz/" target="_blank">
                   SEE LIVE
                 </UrlButton>
                
-                <UrlButton href="https://www.linkedin.com/in/anik-khan/" target="_blank">
-                  LINKEDIN
-                </UrlButton>
+              
               </div>
             </div>
           </ImageEvent>
-              {/* HRM Organization */}
-              <ImageEvent date="29/06/2021" className="text-center" text="HRM Organization Testing" src={L_HRM} alt="Robo Friends">
+          {/* squarefeet admin panel */}
+          <ImageEvent className="text-center" text="SquareFeet Admin Panel" src={L_HSQ} alt="Robo Friends">
+            <div className="d-flex justify-content-between flex-column mt-1">
+              <div>
+                {/* <Accordion>
+                  <Card>
+                    <Accordion.Toggle as={Card.Header} eventKey="0" className="p-2 text-center accordian-main">
+                      PROJECT DETAILS
+                    </Accordion.Toggle>
+
+                    <Accordion.Collapse eventKey="0" className="text-left">
+                      <Card.Body>
+                        <strong>Description:</strong><br/>
+                        In this site only registered 
+                        <hr />
+                       
+                      </Card.Body>
+                    </Accordion.Collapse>
+                  </Card>
+                </Accordion> */}
+              </div>
+              <div className="d-flex justify-content-between flex-nowrap text-center">
+                <UrlButton href="http://myportal.superbnexus.net:8081/login" target="_blank">
+                  SEE LIVE
+                </UrlButton>
+             
+               
+              
+              </div>
+            </div>
+          </ImageEvent>
+              {/* Self Care */}
+              <ImageEvent className="text-center" text="Selfcare of ISP Billing" src={L_SELF} alt="Robo Friends">
+            <div className="d-flex justify-content-between flex-column mt-1">
+              <div>
+                {/* <Accordion>
+                  <Card>
+                    <Accordion.Toggle as={Card.Header} eventKey="0" className="p-2 text-center accordian-main">
+                      PROJECT DETAILS
+                    </Accordion.Toggle>
+
+                    <Accordion.Collapse eventKey="0" className="text-left">
+                      <Card.Body>
+                        <strong>Description:</strong><br/>
+                        In this site only registered 
+                        <hr />
+                       
+                      </Card.Body>
+                    </Accordion.Collapse>
+                  </Card>
+                </Accordion> */}
+              </div>
+              <div className="d-flex justify-content-between flex-nowrap text-center">
+                <UrlButton href="http://myportal.superbnexus.net:8081/login" target="_blank">
+                  SEE LIVE
+                </UrlButton>
+             
+               
+              
+              </div>
+            </div>
+          </ImageEvent>
+
+          {/* Kington Global */}
+          <ImageEvent date="6/01/2020" className="text-center" text="Appartment Hunt" src={L_AppartmentHunt} alt="Robo Friends">
             <div className="d-flex justify-content-between flex-column mt-1">
               <div>
                 <Accordion>
@@ -119,25 +273,101 @@ const TimeLine = () => {
                     <Accordion.Collapse eventKey="0" className="text-left">
                       <Card.Body>
                         <strong>Description:</strong><br/>
-                        This is a demo project of HRM-Organization for converting Functional Requirements to Test scenarios, Test Cases, Test Execution, Defect Reporting of the HRM_Organization System.
+                        With this app the user can view houses, add houses, see list of booking and also can book houses. 
                         <hr />
-                       
+                        <strong>Features:</strong>
+                        <ul className="list-styles pt-1">
+                          <li>This is a MERN-Stack website</li>
+                          <li>Available houses can be seen by users on the homepage</li>
+                          <li>New users need to sign up before logging in and can be logged in via Google</li>
+                          <li>User can see house details by clicking on view details. <br/> After logging in, specific house details will be displayed</li>
+                          <li>The user will be able to book the house with their details</li>
+                          <li>Users can view all booking lists and rent houses</li>
+                          <li>User can add rent house</li>
+                        </ul>
+                        <hr />
+                        <strong>Tech used:</strong>
+                        <ul>
+                        <li>
+                            <span className="p-2">
+                              <Image src={L_JAVASCRIPT} alt="React" rounded className="image-style1 m-1"></Image> JavaScript
+                            </span>
+                          </li>
+                        <li>
+                            <span className="p-2">
+                              <Image src={L_REACT} alt="React" rounded className="image-style1 m-1"></Image> React.js
+                            </span>
+                          </li>
+                      
+                          <li>
+                            <span className="p-2">
+                              <Image src={L_NODE_JS} alt="Node" rounded className="image-style m-1"></Image> Node.js
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image src={L_EXPRESS} alt="Express" rounded className="image-style m-1"></Image> Express.js
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image src={L_MONGODB} alt="MongoDB" rounded className="image-style1 m-1"></Image> MongoDB
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image src={L_REACT_BOOTSTRAP} alt="React-Bootstrap" rounded className="image-style1 m-1"></Image> React-Bootstrap
+                            </span>
+                          </li>
+                          
+                          <li>
+                            <span className="p-2">
+                              <Image src={L_REACT_ROUTER} alt="React-Router" rounded className="image-style1 m-1"></Image> React-Router
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image src={L_HTML5} alt="HTML 5" rounded className="image-style m-1"></Image> HTML5
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image src={L_CSS3} alt="CSS 3" rounded className="image-style m-1"></Image> CSS3
+                            </span>
+                          </li>
+                            
+                        <li>
+                            <span className="p-2">
+                              <Image src={L_GIT} alt="Github API" rounded className="image-style1 m-1"></Image> REST API
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image src={L_FIREBASE} alt="Firebase" rounded className="image-style1 m-1"></Image> Firebase
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image src={L_HEROKU} alt="Heroku" rounded className="image-style1 m-1"></Image> Heroku
+                            </span>
+                          </li>
+                        </ul>
                       </Card.Body>
                     </Accordion.Collapse>
                   </Card>
                 </Accordion>
               </div>
               <div className="d-flex justify-content-between flex-nowrap text-center">
-                <UrlButton href="https://drive.google.com/file/d/1YXREcdABvbXoMTKFwTAG_cOOlbHpEFg2/view?usp=sharing" target="_blank">
+                <UrlButton href="https://appartmenthunt.netlify.app/" target="_blank">
                   SEE LIVE
                 </UrlButton>
-                <UrlButton href="https://github.com/anikkhann/HRM_Organization" target="_blank">
-                  SOURCE CODE(Repository)
+                <UrlButton href="https://github.com/anikkhann/huntAppartmentClient" target="_blank">
+                  SOURCE CODE(Client)
                 </UrlButton>
-               
-                <UrlButton href="https://www.linkedin.com/in/anik-khan/" target="_blank">
-                  LINKEDIN
+                <UrlButton href="https://github.com/anikkhann/appartmentHuntServer" target="_blank">
+                  SOURCE CODE(Server)
                 </UrlButton>
+              
               </div>
             </div>
           </ImageEvent>
@@ -248,13 +478,11 @@ const TimeLine = () => {
                 <UrlButton href="https://github.com/anikkhann/appartmentHuntServer" target="_blank">
                   SOURCE CODE(Server)
                 </UrlButton>
-                <UrlButton href="https://www.linkedin.com/in/anik-khan/" target="_blank">
-                  LINKEDIN
-                </UrlButton>
+              
               </div>
             </div>
           </ImageEvent>
-          {/* Apartment Hunt */}
+         
         
           {/* Project: Creative Agency */}
           <ImageEvent date="15/10/2020" className="text-center" text="Creative Agency" src={L_CreativeAgency} alt="Get GitHub Info">
@@ -372,9 +600,7 @@ const TimeLine = () => {
                 <UrlButton href="https://github.com/anikkhann/creative-agency-server" target="_blank">
                   SOURCE CODE(Server)
                 </UrlButton>
-                <UrlButton href="https://www.linkedin.com/in/anik-khan/" target="_blank">
-                  LINKEDIN
-                </UrlButton>
+              
               </div>
             </div>
           </ImageEvent>
@@ -463,9 +689,7 @@ const TimeLine = () => {
                 <UrlButton href="https://github.com/anikkhann/travel-guru" target="_blank">
                   SOURCE CODE(Client)
                 </UrlButton>
-                <UrlButton href="https://www.linkedin.com/in/anik-khan/" target="_blank">
-                  LINKEDIN
-                </UrlButton>
+              
               </div>
             </div>
           </ImageEvent>
@@ -581,15 +805,13 @@ const TimeLine = () => {
                 <UrlButton href="https://github.com/anikkhann/volunteer-network-server" target="_blank">
                   SOURCE CODE(Server)
                 </UrlButton>
-                <UrlButton href="https://www.linkedin.com/in/anik-khan/" target="_blank">
-                  LINKEDIN
-                </UrlButton>
+              
               </div>
             </div>
           </ImageEvent>
 
             {/* edutech-startup */}
-            <ImageEvent date="5/12/2020" className="text-center" text="Edutech-Startup" src={L_EduTech} alt="Robo Friends">
+            {/* <ImageEvent date="5/12/2020" className="text-center" text="Edutech-Startup" src={L_EduTech} alt="Robo Friends">
             <div className="d-flex justify-content-between flex-column mt-1">
               <div>
                 <Accordion>
@@ -661,12 +883,10 @@ const TimeLine = () => {
                 <UrlButton href="https://github.com/anikkhann/edutech-startup" target="_blank">
                   SOURCE CODE(Client)
                 </UrlButton>
-                <UrlButton href="https://www.linkedin.com/in/anik-khan/" target="_blank">
-                  LINKEDIN
-                </UrlButton>
+              
               </div>
             </div>
-          </ImageEvent>
+          </ImageEvent> */}
         </Events>
       </Timeline>
     </div>
