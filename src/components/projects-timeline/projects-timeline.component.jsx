@@ -45,7 +45,7 @@ const TimeLine = () => {
       <Timeline>
         <Events>
           {/* EDUTUBE */}
-          <ImageEvent date="8/07/2021" className="text-center" text="EduTube Video Application" src={L_EDU} alt="Robo Friends">
+          <ImageEvent className="text-center" text="EduTube Video Application" src={L_EDU} alt="Robo Friends">
             <div className="d-flex justify-content-between flex-column mt-1">
               <div>
                 <Accordion>
@@ -261,7 +261,7 @@ const TimeLine = () => {
           </ImageEvent>
 
           {/* Kington Global */}
-          <ImageEvent date="6/01/2020" className="text-center" text="Appartment Hunt" src={L_AppartmentHunt} alt="Robo Friends">
+          <ImageEvent className="text-center" text="Appartment Hunt" src={L_AppartmentHunt} alt="Robo Friends">
             <div className="d-flex justify-content-between flex-column mt-1">
               <div>
                 <Accordion>
@@ -372,7 +372,7 @@ const TimeLine = () => {
             </div>
           </ImageEvent>
           {/* Apartment Hunt */}
-          <ImageEvent date="6/01/2020" className="text-center" text="Appartment Hunt" src={L_AppartmentHunt} alt="Robo Friends">
+          <ImageEvent className="text-center" text="Appartment Hunt" src={L_AppartmentHunt} alt="Robo Friends">
             <div className="d-flex justify-content-between flex-column mt-1">
               <div>
                 <Accordion>
@@ -485,7 +485,7 @@ const TimeLine = () => {
          
         
           {/* Project: Creative Agency */}
-          <ImageEvent date="15/10/2020" className="text-center" text="Creative Agency" src={L_CreativeAgency} alt="Get GitHub Info">
+          <ImageEvent className="text-center" text="Creative Agency" src={L_CreativeAgency} alt="Get GitHub Info">
             <div className="d-flex justify-content-between flex-column mt-1">
               <div>
                 <Accordion >
@@ -605,7 +605,7 @@ const TimeLine = () => {
             </div>
           </ImageEvent>
           {/* Project: Travel Guru */}
-          <ImageEvent date="21/09/2020" className="text-center" text="Travel Guru" src={L_TravelGuru} alt="Smart Brain Face Detect">
+          <ImageEvent className="text-center" text="Travel Guru" src={L_TravelGuru} alt="Smart Brain Face Detect">
             <div className="d-flex justify-content-between flex-column mt-1">
               <div>
                 <Accordion>
@@ -696,7 +696,7 @@ const TimeLine = () => {
 
           {/* Project: Volunteer NetWork */}
 
-          <ImageEvent date="6/10/2020" className="text-center" text="Volunteer NetWork" src={L_VolunteerNetwork} alt="Robo Friends">
+          <ImageEvent className="text-center" text="Volunteer NetWork" src={L_VolunteerNetwork} alt="Robo Friends">
             <div className="d-flex justify-content-between flex-column mt-1">
               <div>
                 <Accordion>
