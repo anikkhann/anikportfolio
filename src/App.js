@@ -37,7 +37,7 @@ const App = () => {
         >
           <div>
             <Container className="container-box rounded">
-              <Fade duration={500}>
+              <Fade duration={200}>
                 <About />
               </Fade>
             </Container>
@@ -45,7 +45,7 @@ const App = () => {
         </Parallax>
       </div>
       <Container className="container-box rounded">
-        <Slide bottom duration={500}>
+        <Slide bottom duration={200}>
           <hr />
           <Skills />
         </Slide>
@@ -60,13 +60,14 @@ const App = () => {
         </Container>
       </div> */}
       <Container className="container-box rounded">
-        <Slide bottom duration={500}>
+        <Slide bottom duration={200}>
           <hr />
+
           <TimeLine />
         </Slide>
       </Container>
       <Container className="container-box rounded">
-        <Fade duration={500}>
+        <Fade duration={200}>
           <hr />
           <ContactForm />
         </Fade>

@@ -117,7 +117,7 @@ const TimeLine = () => {
                 </Accordion>
               </div>
               <div className="d-flex justify-content-between flex-nowrap text-center">
-                <UrlButton href="https://drive.google.com/file/d/1QNPsOnTObGSpfQ5Lw32BKCk0nqfmhRcF/view" target="_blank">
+                <UrlButton href="https://edu-tube-application.vercel.app/" target="_blank">
                   SEE LIVE
                 </UrlButton>
                 <UrlButton href="https://edu-tube-application.vercel.app/" target="_blank">
