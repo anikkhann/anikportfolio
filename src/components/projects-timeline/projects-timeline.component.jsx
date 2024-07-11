@@ -372,7 +372,7 @@ const TimeLine = () => {
             </div>
           </ImageEvent>
           {/* Apartment Hunt */}
-          <ImageEvent className="text-center" text="Appartment Hunt" src={L_AppartmentHunt} alt="Robo Friends">
+          {/* <ImageEvent className="text-center" text="Appartment Hunt" src={L_AppartmentHunt} alt="Robo Friends">
             <div className="d-flex justify-content-between flex-column mt-1">
               <div>
                 <Accordion>
@@ -481,7 +481,7 @@ const TimeLine = () => {
               
               </div>
             </div>
-          </ImageEvent>
+          </ImageEvent> */}
          
         
           {/* Project: Creative Agency */}
