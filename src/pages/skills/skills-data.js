@@ -25,10 +25,7 @@ import L_RQ from "../../assets/img/skills/rq.webp";
 import L_VCL from "../../assets/img/skills/vcl.jpeg";
 import L_GITLAB from "../../assets/img/skills/gitlab.webp";
 export const skills = {
- 
   frontend: [
-  
-    
     {
       link: "https://www.javascript.com/",
       imgAltText: "JavaScript",
@@ -59,7 +56,7 @@ export const skills = {
       imgSrc: L_REACT_ROUTER,
       skillName: "React Router",
     },
-   
+
     {
       link: "https://medium.com/beginners-guide-to-mobile-web-development/whats-new-in-css-3-dcd7fa6122e1",
       imgAltText: "CSS 3",
@@ -78,7 +75,7 @@ export const skills = {
       imgSrc: L_BOOTSTRAP,
       skillName: "Bootstrap",
     },
-    
+
     {
       link: "https://react-bootstrap.github.io/",
       imgAltText: "React Bootstrap",
@@ -93,25 +90,24 @@ export const skills = {
     },
   ],
   backend: [
-    {
-      link: "https://nodejs.org/en/",
-      imgAltText: "Node.js",
-      imgSrc: L_NODE_JS,
-      skillName: "Node.js",
-    },
-    {
-      link: "https://expressjs.com/",
-      imgAltText: "Express",
-      imgSrc: L_EXPRESS,
-      skillName: "Express",
-    },
+    // {
+    //   link: "https://nodejs.org/en/",
+    //   imgAltText: "Node.js",
+    //   imgSrc: L_NODE_JS,
+    //   skillName: "Node.js",
+    // },
+    // {
+    //   link: "https://expressjs.com/",
+    //   imgAltText: "Express",
+    //   imgSrc: L_EXPRESS,
+    //   skillName: "Express",
+    // },
     {
       link: "https://www.mongodb.com/",
       imgAltText: "MongoDB",
       imgSrc: L_MONGODB,
       skillName: "MongoDB",
     },
-    
   ],
   hostingPlatforms: [
     {
@@ -144,7 +140,6 @@ export const skills = {
       imgSrc: L_NETLIFY,
       skillName: "Netlify",
     },
-    
   ],
   programmingLanguages: [
     {
@@ -165,8 +160,6 @@ export const skills = {
       imgSrc: L_RQ,
       skillName: "React Query",
     },
-  
-    
   ],
   databases: [
     {
@@ -175,13 +168,12 @@ export const skills = {
       imgSrc: L_MONGODB,
       skillName: "MongoDB",
     },
-    {
-      link: "https://dev.mysql.com/downloads/mysql/",
-      imgAltText: "my-sql",
-      imgSrc: L_MYSQL,
-      skillName: "MySQL",
-    },
-    
+    // {
+    //   link: "https://dev.mysql.com/downloads/mysql/",
+    //   imgAltText: "my-sql",
+    //   imgSrc: L_MYSQL,
+    //   skillName: "MySQL",
+    // },
   ],
   versionControl: [
     {
@@ -194,6 +186,6 @@ export const skills = {
       imgAltText: "Gitlab",
       imgSrc: L_GITLAB,
       skillName: "Gitlab",
-    }
+    },
   ],
 };

@@ -8,7 +8,7 @@ import Container from "react-bootstrap/Container";
 import TimeLine from "./components/projects-timeline/projects-timeline.component";
 import Experience from "./pages/experience/experience.component";
 import Fade from "react-reveal/Fade";
-import Slide from "react-reveal/Slide";
+// import Slide from "react-reveal/Slide";
 import ContactForm from "./pages/contact-form/contact-form.component";
 import { Parallax } from "react-parallax";
 import Particles from "react-particles-js";
@@ -45,10 +45,10 @@ const App = () => {
         </Parallax>
       </div>
       <Container className="container-box rounded">
-        <Slide bottom duration={200}>
-          <hr />
-          <Skills />
-        </Slide>
+        {/* <Slide bottom duration={200}> */}
+        <hr />
+        <Skills />
+        {/* </Slide> */}
       </Container>
       {/* <div>
         <Container className="container-box rounded">
@@ -61,9 +61,9 @@ const App = () => {
       </div> */}
       <Container className="container-box rounded">
         {/* <Slide bottom duration={200}> */}
-          <hr />
+        <hr />
 
-          <TimeLine />
+        <TimeLine />
         {/* </Slide> */}
       </Container>
       <Container className="container-box rounded">
